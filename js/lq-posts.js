@@ -276,7 +276,7 @@
     }
 
     function postUrl(post) {
-        return "post.html?slug=" + encodeURIComponent(post.slug);
+        return "/stories/" + encodeURIComponent(post.slug) + ".html";
     }
 
     function getPostBySlug(slug) {
@@ -347,7 +347,7 @@
         var node = document.getElementById("lq-single-post");
         if (!node) return;
         var params = new URLSearchParams(window.location.search);
-        var post = getPostBySlug(params.get("slug"));
+        var post = getPostBySlug(params.get("slug") || decodeURIComponent(window.location.pathname.split('/').pop().replace(/\.html$/, '')));
         var currentIndex = posts.indexOf(post);
         if (currentIndex < 0) currentIndex = 0;
         var previousPost = posts[(currentIndex - 1 + posts.length) % posts.length];

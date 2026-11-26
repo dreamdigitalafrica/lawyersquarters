@@ -4,7 +4,7 @@ var url='post.html?slug='+story.slug;
 var lead=null; // Homepage lead is rendered in HTML before slider initialization.
 if(lead){lead.dataset.title=story.title;lead.dataset.category='scholarship welfare education';lead.querySelector('.slide-image').style.backgroundImage='url('+story.image+')';lead.querySelector('h1 a').textContent=story.title;lead.querySelector('.swiper-content>p').textContent=story.excerpt;lead.querySelectorAll('a').forEach(function(a){a.href=url});lead.querySelector('.entry-category a').textContent='Law School Scholarship';lead.querySelector('.entry-author').innerHTML='<a class="white" href="'+url+'">Read full story →</a>';}
 document.addEventListener('DOMContentLoaded',function(){
-if(new URLSearchParams(location.search).get('slug')!==story.slug)return;
+if(new URLSearchParams(location.search).get('slug')!==story.slug && !location.pathname.endsWith('/'+story.slug+'.html'))return;
 var body=document.querySelector('.lq-post-body');if(!body)return;
 var quote=body.querySelector('blockquote');if(quote)quote.remove();
 var headings=['From Five Beneficiaries to Over 70','Support Beyond Tuition','Recognition from Nigerian Law School Leadership','PUSG 2026: Who Can Apply?','Investing in the Future of Nigeria’s Legal Profession'];

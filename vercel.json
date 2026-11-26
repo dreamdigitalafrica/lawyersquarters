@@ -1,0 +1,174 @@
+{
+  "buildCommand": "node scripts/build-sharing.cjs",
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "prada-uzodimma-law-school-scholarship-2026"
+        }
+      ],
+      "destination": "/stories/prada-uzodimma-law-school-scholarship-2026.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "from-the-editors-desk"
+        }
+      ],
+      "destination": "/stories/from-the-editors-desk.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "prada-uzodimma-30-and-rising"
+        }
+      ],
+      "destination": "/stories/prada-uzodimma-30-and-rising.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "proactive-bar-afam-osigwe"
+        }
+      ],
+      "destination": "/stories/proactive-bar-afam-osigwe.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "nba-sbl-business-law-conference"
+        }
+      ],
+      "destination": "/stories/nba-sbl-business-law-conference.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "nba-agc-2025-enugu-destinations"
+        }
+      ],
+      "destination": "/stories/nba-agc-2025-enugu-destinations.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "nba-agc-2026-port-harcourt"
+        }
+      ],
+      "destination": "/stories/nba-agc-2026-port-harcourt.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "beyond-limits-legal-practice"
+        }
+      ],
+      "destination": "/stories/beyond-limits-legal-practice.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "legal-tech-exhibition-marketplace"
+        }
+      ],
+      "destination": "/stories/legal-tech-exhibition-marketplace.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "culture-community-moments"
+        }
+      ],
+      "destination": "/stories/culture-community-moments.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "welfare-watch-access-support"
+        }
+      ],
+      "destination": "/stories/welfare-watch-access-support.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "politics-public-accountability"
+        }
+      ],
+      "destination": "/stories/politics-public-accountability.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "yoruba-culture-language-watch"
+        }
+      ],
+      "destination": "/stories/yoruba-culture-language-watch.html",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "slug",
+          "value": "security-abia-raids"
+        }
+      ],
+      "destination": "/stories/security-abia-raids.html",
+      "permanent": true
+    }
+  ]
+}
